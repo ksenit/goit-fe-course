@@ -1,0 +1,35 @@
+
+
+main, header{
+  margin:0 auto;
+  width:900px;
+  text-align: center;
+}
+
+article{
+  width: 420px;
+  display: inline-block;
+}
+
+.second{
+  margin-left: 56px;
+}
+
+.mainnav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 40px;
+  text-transform: uppercase;
+  font-family: 'playfair display', serif;  
+}
+.mainnav ul li a{
+  color: #626262;
+  text-decoration: none;
+}
+.mainnav ul li a:hover{
+  color: #7fd9c7;
+}
+
+
+
+
