@@ -6,14 +6,25 @@ main, header{
   text-align: center;
 }
 
-article{
-  width: 420px;
-  display: inline-block;
+main{
+  margin-top: 60px;
+  text-align: justify;
 }
 
-.second{
-  margin-left: 56px;
+article{
+  max-width: 420px;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
 }
+/* article:not(:nth-last-of-type(2n+2)){
+  margin-right: 56px;
+} */
+
+.mainnav{
+  margin-top: 60px;
+}
+
 
 .mainnav ul li{
   list-style: none;
@@ -28,6 +39,29 @@ article{
 }
 .mainnav ul li a:hover{
   color: #7fd9c7;
+}
+
+.category{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+h2{
+  font-family: 'playfair display', serif;
+  font-size: 30px;  
+}
+article p{
+  font-family: 'playfair display', serif;
+}
+
+button{
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: 'playfair display', serif;
+  padding: 10px;
+  
 }
 
 
