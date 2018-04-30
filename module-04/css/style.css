@@ -1,0 +1,146 @@
+
+
+body{
+    /* width: 1110px; */
+    margin: 0 100px 0 100px;
+
+}
+*{
+    margin: 0;
+    padding: 0;    
+}
+.logo::first-letter{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(26, 188, 156);
+    font-weight: 900;
+    /* float: left; */
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+    color: #555252;
+    text-transform: uppercase;
+    font-size:30px;
+    float: left;
+    margin-top: 29px;
+}
+.mainnav ul li{
+    list-style:none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 32px;
+    font-family: 'open sans', sans-serif; 
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    margin-top: 11px;        
+}
+.mainnav ul li a:hover{
+    color: #1abc9c;
+}
+
+.mainnav ul li a{
+    text-decoration: none;
+    color: rgb(15, 1, 1)
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(85, 82, 82);
+    margin-top: 60px;
+}
+.name{
+    background-color: rgb(50, 50, 50);
+    height: 40px;
+    width: 201px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+.price{
+    background-color: rgb(140, 140, 140);
+    height: 40px;
+    width:54px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 32px;
+}
+.bottom{
+    display: block;
+    float: left;
+}
+
+h3{
+    font-family: 'open sans', sans-serif;
+    color: rgb(85, 82, 82);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2::after{
+    content: "";
+    width: 164px;
+    height: 7px;
+    background: rgb(26, 188, 156);
+    display: block;
+    margin: 32px auto 93px;
+}
+p{
+    font-family: 'open sans', sans-serif;
+    color: rgb(85, 82, 82);
+    font-size: 14px;
+    font-weight: 400;
+}
+button{
+    width: 160px;
+    height: 51px;
+    background-color: rgb(78, 198, 171);
+    font-family: 'open sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300;
+} 
+.goods{
+    width: 255px;
+    height: 322px;
+    float: left;
+    margin-left: 30px;
+}
+/* .photo{
+    width: 255px;
+    height: 282px;
+    text-align: center;
+} */
+.blognews{
+    width: 350px;
+    height: 510px;
+    float: left;
+    margin-left: 30px;
+}
+.d:hover{
+    cursor: pointer;
+}
+.d:hover .name{
+    background: rgb(26, 188, 156);
+}
+.d:hover .price{
+    background: rgb(26, 188, 156);    
+}
+
