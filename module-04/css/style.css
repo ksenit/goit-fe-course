@@ -60,6 +60,9 @@ h2{
     color: rgb(85, 82, 82);
     margin-top: 60px;
 }
+.ln{
+    margin-top: 106px;
+}
 .name{
     background-color: rgb(50, 50, 50);
     height: 40px;
@@ -70,21 +73,35 @@ h2{
     font-weight: 900;
     text-transform: uppercase;
     line-height: 32px;
+    float: left;
+    line-height: 40px;
+    /* padding-left: 13px; */
+    margin-bottom: 30px;
 }
 .price{
     background-color: rgb(140, 140, 140);
     height: 40px;
-    width:54px;
+    width:54px;    
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 900;
     text-align: center;
     line-height: 32px;
+    float: right;
+    line-height: 40px;
+    padding: 0px;
+    /* margin-bottom: 32px; */
+}
+.goods:hover .name{
+    background-color: rgb(26, 188, 156);
+}
+.goods:hover .price{
+    background-color: rgb(127, 217, 199);
 }
 .bottom{
     display: block;
-    float: left;
+    float: left;    
 }
 
 h3{
@@ -92,6 +109,14 @@ h3{
     color: rgb(85, 82, 82);
     font-size: 18px;
     font-weight: 600;
+}
+h3::after{
+    content: "";
+    width: 136px;
+    height: 3px;
+    background: rgb(78, 198, 171);
+    display: block;
+    margin: 15px 0 30px 0;
 }
 
 h2::after{
@@ -111,6 +136,7 @@ p{
 button{
     width: 160px;
     height: 51px;
+    border-radius: 3px;
     background-color: rgb(78, 198, 171);
     font-family: 'open sans', sans-serif;
     color: rgb(255, 255, 255);
@@ -121,7 +147,18 @@ button{
     width: 255px;
     height: 322px;
     float: left;
-    margin-left: 30px;
+}
+
+.goods:not(:nth-of-type(4n+4)){
+    margin-right: 30px;
+}
+
+.goods img{
+    display: block;
+    width: 100%;
+    max-height: 282px;
+    height: auto;
+    object-fit: cover;
 }
 /* .photo{
     width: 255px;
