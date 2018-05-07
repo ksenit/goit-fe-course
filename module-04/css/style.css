@@ -72,6 +72,7 @@ h2{
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
+    text-indent: 13px;
     line-height: 32px;
     float: left;
     line-height: 40px;
@@ -92,6 +93,9 @@ h2{
     line-height: 40px;
     padding: 0px;
     /* margin-bottom: 32px; */
+}
+.goods{
+    margin-top: 30px;
 }
 .goods:hover .name{
     background-color: rgb(26, 188, 156);
@@ -125,7 +129,7 @@ h2::after{
     height: 7px;
     background: rgb(26, 188, 156);
     display: block;
-    margin: 32px auto 93px;
+    margin: 32px auto 63px;
 }
 p{
     font-family: 'open sans', sans-serif;
