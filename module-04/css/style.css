@@ -29,6 +29,9 @@ header{
     float: left;
     margin-top: 29px;
 }
+.mainnav{
+    float: right;
+}
 .mainnav ul li{
     list-style:none;
     display: inline-block;
@@ -37,9 +40,9 @@ header{
     font-family: 'open sans', sans-serif; 
     text-align: right;
     font-size: 14px;
-    font-weight: bold;
-    float: right;
-    margin-top: 11px;        
+    font-weight: 700;
+    float: left;
+    margin-top: 26px;        
 }
 .mainnav ul li a:hover{
     color: #1abc9c;
@@ -68,7 +71,7 @@ h2{
     font-size: 48px;
     font-weight: 900;
     color: rgb(85, 82, 82);
-    margin-top: 60px;
+    margin-top: 94px;
 }
 .ln{
     margin-top: 106px;
@@ -87,7 +90,7 @@ h2{
     float: left;
     line-height: 40px;
     /* padding-left: 13px; */
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 .price{
     background-color: rgb(140, 140, 140);
@@ -139,7 +142,7 @@ h2::after{
     height: 7px;
     background: rgb(26, 188, 156);
     display: block;
-    margin: 32px auto 63px;
+    margin: 32px auto 61px;
 }
 p{
     font-family: 'open sans', sans-serif;
@@ -183,8 +186,10 @@ button{
     width: 350px;
     height: 510px;
     float: left;
+    /* margin-right: 30px; */
+}
+.blognews:not(:nth-of-type(3n)){
     margin-right: 30px;
-    margin-block-end: 0;
 }
 .lnews{
     max-width: 1111px;
